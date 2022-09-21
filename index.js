@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import Blog from "./model/Blog.js";
 
-mongoose.connect("mongodb+srv://TDEBancoDados:mongo@cluster0.6q4rkvi.mongodb.net/?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://TDEBancoDados:,<password>@cluster0.6q4rkvi.mongodb.net/?retryWrites=true&w=majority");
 
 // // Create a new blog post object
 // const article = new Blog({
